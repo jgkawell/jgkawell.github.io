@@ -29,7 +29,7 @@ description: >- # used by seo meta and the atom feed
   Software engineering and other shenanigans
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://site.jack.kawell.us"
+url: "https://jack.kawell.us"
 
 github:
   username: jgkawell # change to your github username
