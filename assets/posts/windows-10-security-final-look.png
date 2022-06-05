@@ -1,0 +1,14 @@
+--2022-06-04 15:26:37--  https://jackkawell.files.wordpress.com/2019/08/image-4.png?w=1024
+Resolving jackkawell.files.wordpress.com (jackkawell.files.wordpress.com)... 192.0.72.24, 192.0.72.25
+Connecting to jackkawell.files.wordpress.com (jackkawell.files.wordpress.com)|192.0.72.24|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 163707 (160K) [image/png]
+Saving to: ‘image-4.png?w=1024.1’
+
+     0K .......... .......... .......... .......... .......... 31% 1.76M 0s
+    50K .......... .......... .......... .......... .......... 62% 2.76M 0s
+   100K .......... .......... .......... .......... .......... 93% 3.29M 0s
+   150K .........                                             100% 64.2M=0.06s
+
+2022-06-04 15:26:39 (2.58 MB/s) - ‘image-4.png?w=1024.1’ saved [163707/163707]
+
