@@ -18,7 +18,7 @@ NOTE: Like a lot of my previous posts, this is a functional solution and could d
 
 ### Initial Setup
 
-To begin with, you'll need a working development environment for OMPL and MoveIt!. I've already written a blog post on how to do this so check that out <a rel="noreferrer noopener" aria-label="here (opens in a new tab)" href="https://jack-kawell.com/2019/06/24/installing-ompl/" target="_blank">here</a>. Walk through that post first with either a Docker or bare-bones Ubuntu/WSL and then come back here to walk through these addition steps.
+To begin with, you'll need a working development environment for OMPL and MoveIt!. I've already written a blog post on how to do this so check that out [here](/posts/ompl-moveit-custom-motion-planning). Walk through that post first with either a Docker or bare-bones Ubuntu/WSL and then come back here to walk through these addition steps.
 
 ### OMPL Setup
 

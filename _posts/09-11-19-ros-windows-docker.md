@@ -9,7 +9,7 @@ In another post, I wrote about setting up a ROS development environment within W
 
 NOTE #1: This installation will set up ROS **Kinetic**. The same steps will also install any other version of ROS you'd like to use (like Melodic), but you'll need to change any commands with the word `kinetic` in them to the ROS distribution of your choice.
 
-NOTE #2: If you'd like to know how to set this up in WSL, I have a tutorial <a href="https://jack-kawell.com/2019/06/24/setting-up-a-ros-development-environment-in-windows/" target="_blank" rel="noreferrer noopener" aria-label="here (opens in a new tab)">here</a>. 
+NOTE #2: If you'd like to know how to set this up in WSL, I have a tutorial [here](/posts/ros-windows-wsl).
 
 ### Docker Setup
 

@@ -2,16 +2,16 @@
 title: Setting up ROS in Windows through WSL2
 date: 2020-06-12 12:00:00 -500
 categories: [development, tutorial]
-tags: [linux,windows,wsl]
+tags: [linux, windows, wsl]
 ---
 
 # Introduction
 
-This post is a tutorial on how to set up a working ROS development environment within Windows (complete with GUI support) utilizing the new Windows Subsystem for Linux 2 (WSL2). I wrote <a rel="noreferrer noopener" href="https://jack-kawell.com/2019/06/24/setting-up-a-ros-development-environment-in-windows/" target="_blank">a similar post</a> to this previously describing how to do it for WSL1 and a lot of that info carries over here. If you want to learn about why I choose to use WSL instead of a Virtual Machine (VM) or dual-booting into Linux, you can read about that in the above post.
+This post is a tutorial on how to set up a working ROS development environment within Windows (complete with GUI support) utilizing the new Windows Subsystem for Linux 2 (WSL2). I wrote [a similar post](/posts/ros-windows-wsl) to this previously describing how to do it for WSL1 and a lot of that info carries over here. If you want to learn about why I choose to use WSL instead of a Virtual Machine (VM) or dual-booting into Linux, you can read about that in the above post.
 
-Before we get started I'd like to point out that my <a href="https://jack-kawell.com/2019/06/24/setting-up-a-ros-development-environment-in-windows/">previous post</a> on this topic for WSL1 has been a major hit. That blog post gets hundreds of views per week and I'm blown away by how many people have been helped by it. I want you all to know that I really appreciate all the feedback I get and that I actively check the comments on this blog and all emails I get about it (<a href="https://jack-kawell.com/contact/">contact info</a>) so don't be shy and reach out with comments and questions!
+Before we get started I'd like to point out that my [previous post](/posts/ros-windows-wsl) on this topic for WSL1 has been a major hit. That blog post gets hundreds of views per week and I'm blown away by how many people have been helped by it. I want you all to know that I really appreciate all the feedback I get and that I actively check the comments on this blog so don't be shy and reach out with comments and questions!
 
-NOTE #1: If you’d like to know how to set this up in Docker, I have another tutorial <a rel="noreferrer noopener" href="https://jack-kawell.com/2019/09/11/setting-up-ros-in-windows-through-docker/" target="_blank">here</a> that shows how to do that.
+NOTE #1: If you’d like to know how to set this up in Docker, I have another tutorial [here](/posts/ros-windows-docker) that shows how to do that.
 
 NOTE #2: You have to be running Windows 10 version 2004 (Build 19041) or higher for WSL2 to work.
 
@@ -71,7 +71,7 @@ Now you’re in! You have an (almost) fully-featured version of Ubuntu running w
 
 NOTE: Your WSL2 filesystem resides within your file explorer at `\\wsl$\Ubuntu-18.04`
 
-# Setting up GUI forwarding
+## Setting up GUI forwarding
 
 There are many X-server applications that will allow for GUI forwarding from WSL2, but my favorite one is VcXsrv. Go&nbsp;<a rel="noreferrer noopener" href="https://sourceforge.net/projects/vcxsrv/" target="_blank">here</a>&nbsp;to download and install it.
 

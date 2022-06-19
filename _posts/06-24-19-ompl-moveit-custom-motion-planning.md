@@ -19,13 +19,13 @@ I have worked out a couple methods to getting this working:
 
 NOTE #1: I am not an experienced C++ developer and so there may be inaccuracies in my explanation below and my methodology may be hacky/downright wrong. I welcome any and all comments to improve this system.
 
-NOTE #2: If you want to develop in ROS but don't necessarily need custom installs of OMPL or MoveIt! and also happen to use Windows, I've written up a couple tutorials showing how to get ROS working on Windows using either WSL [here](https://jack-kawell.com/2019/06/24/setting-up-a-ros-development-environment-in-windows/) or Docker [here](https://jack-kawell.com/2019/09/11/setting-up-ros-in-windows-through-docker/).
+NOTE #2: If you want to develop in ROS but don't necessarily need custom installs of OMPL or MoveIt! and also happen to use Windows, I've written up a couple tutorials showing how to get ROS working on Windows using either WSL [here](/posts/ros-windows-wsl) or Docker [here](/posts/ros-windows-docker).
 
 ## Installation (Ubuntu Desktop)
 
 Before we begin, a couple things to note. First, this process should work well on a relatively clean version of Ubuntu 16.04 desktop. I would suggest using a VM (or [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) first as it is guaranteed to be completely clean and so without any conflicting dependencies (the bane of my existence while figuring all this out).
 
-Now, open a terminal window and download the install script from my GitHub: 
+Now, open a terminal window and download the install script from my GitHub:
 
 ```bash
 wget https://raw.githubusercontent.com/jgkawell/docker-scripts/master/Linux/ompl-install.sh
@@ -39,7 +39,7 @@ You may need to make the file executable:
 chmod +x ompl-dev-install.sh
 ```
 
-And finally, simply run the script and wait a while (the length will depend on the speed of your machine and internet connection): 
+And finally, simply run the script and wait a while (the length will depend on the speed of your machine and internet connection):
 
 ```bash
 ./ompl-dev-install.sh
@@ -57,7 +57,7 @@ Now before we get started, we need to first set up the X-server on the host in o
 
 #### Windows Host
 
-If you're running Windows, I'd suggest installing[VcXsrv](https://sourceforge.net/projects/vcxsrv/) and then I have a pre-built configuration file that you can simply run to have the X server ready to go (it's under `docker-scripts/Windows` in [this git repository](https://github.com/jgkawell/docker-scripts).
+If you're running Windows, I'd suggest installing [VcXsrv](https://sourceforge.net/projects/vcxsrv/) and then I have a pre-built configuration file that you can simply run to have the X server ready to go (it's under `docker-scripts/Windows` in [this git repository](https://github.com/jgkawell/docker-scripts).
 
 In addition to installing and setting up your X-server application, you'll also need to set the `DISPLAY` environment variable so that the Docker container knows where to push GUI applications. For that, if you're on Windows, run the below command in Powershell and remember to fill in your correct IP address (IP can be found in Settings -> Network & Internet -> Wi-Fi or Ethernet -> Click on the connection -> IPv4 address):
 

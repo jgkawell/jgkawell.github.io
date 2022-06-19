@@ -5,9 +5,9 @@ categories: [development, tutorial]
 tags: [ros, robotics]
 ---
 
-# UPDATE:
+# UPDATE
 
-This post is now deprecated with the public launch of WSL2. I have a new post documenting how to do this same set up with WSL2. Check it out [over here](https://jack-kawell.com/2020/06/12/ros-wsl2/).
+This post is now deprecated with the public launch of WSL2. I have a new post documenting how to do this same set up with WSL2. Check it out [over here](/posts/ros-windows-wsl2).
 
 **NOTE**: If you are **not** running Windows 10 2004 **Build 19041** or higher, then you can continue with this post using WSL1.
 
@@ -17,7 +17,7 @@ As a robotics researcher, I spend a lot of my time developing in a Linux-on-meta
 
 Because of this, I've often wanted a way to develop within ROS on top of Windows. This can be accomplished by spinning up a VM within VirtualBox or VMWare and simply diving into a full Ubuntu desktop, but that takes up precious resources and also means dealing with all the miscellaneous issues with a full Linux install that I'm trying to avoid. Put simply, I wish for a lightweight ROS development environment which will allow me to quickly jump in and out of it without slowing down my Windows host. There are two ways to accomplish this: one way is to simply load up a Docker image based on Ubuntu with ROS pre-installed and away you go. However, Docker containers don't have a great connection with either your network or your local files and thus aren't tightly integrated with the Windows platform they are hosted by. The second way to accomplish this is by using WSL (Windows Subsystem for Linux) which is what we will do below.
 
-NOTE: If you'd like to know how to set this up in Docker, I have a tutorial [here](https://jack-kawell.com/2019/09/11/setting-up-ros-in-windows-through-docker/).
+NOTE: If you'd like to know how to set this up in Docker, I have a tutorial [here](/posts/ros-windows-docker).
 
 # WSL Installation
 
