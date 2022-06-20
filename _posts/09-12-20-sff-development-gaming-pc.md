@@ -1,7 +1,7 @@
 ---
 title: Building a Custom SFF Development and Gaming PC
 date: 2020-09-12 12:00:00 -500
-categories: [uncategorized]
+categories: [misc]
 tags: [computer, diy, hobby, setup]
 ---
 
