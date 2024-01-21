@@ -14,7 +14,7 @@ order: 4
   />
 </figure>
 
-I am a Software Engineer with a M.S. degree in Computer Science from the University of Colorado Boulder. I am currently a Senior Software Engineer at <a href="https://projectares.academy/" target="_blank" rel="noopener">Project Ares by Circadence</a> where I am the lead of the DevSecOps team and specialize in SRE. I have a passion for integrating complex systems and constantly learning new languages, techniques, and frameworks. My current focus is in distributed systems and platform engineering.
+I am a Software Engineer with a background in research, robotics, SRE, distributed systems, and platform engineering. I am currently a Senior Software Engineer at Fluid Truck where I work remotely. I have a passion for integrating complex systems and constantly learning new languages, techniques, and frameworks. My current focus is in distributed systems and platform engineering. My side projects focus on generic platforms for microservice development ([Galactus](https://github.com/jgkawell/galactus)) and all sorts of homelabbing things (networking, security, services, automation, etc.). My specialties are Golang, Kubernetes (and containerization more broadly), SRE, and platform engineering.
 
 ## Helpful Links
 
