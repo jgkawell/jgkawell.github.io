@@ -16,14 +16,16 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: America/Denver
+timezone: America/Chicago
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Jack Kawell # the main title
 
-tagline: I build stuff # it will display as the sub-title
+tagline: | # it will display as the sub-title
+  I build stuff
+  <a hidden rel="me" href="https://mastodon.world/@jgkawell">Mastodon</a>
 
 description: >- # used by seo meta and the atom feed
   Software engineering and other shenanigans
