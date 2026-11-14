@@ -8,11 +8,11 @@ summary: This post is a tutorial on how to set up a working ROS development envi
 
 ## Introduction
 
-This post is a tutorial on how to set up a working ROS development environment within Windows (complete with GUI support) utilizing the new Windows Subsystem for Linux 2 (WSL2). I wrote [a similar post](/blog/ros-windows-wsl) to this previously describing how to do it for WSL1 and a lot of that info carries over here. If you want to learn about why I choose to use WSL instead of a Virtual Machine (VM) or dual-booting into Linux, you can read about that in the above post.
+This post is a tutorial on how to set up a working ROS development environment within Windows (complete with GUI support) utilizing the new Windows Subsystem for Linux 2 (WSL2). I wrote [a similar post](/posts/ros-windows-wsl) to this previously describing how to do it for WSL1 and a lot of that info carries over here. If you want to learn about why I choose to use WSL instead of a Virtual Machine (VM) or dual-booting into Linux, you can read about that in the above post.
 
-Before we get started I'd like to point out that my [previous post](/blog/ros-windows-wsl) on this topic for WSL1 has been a major hit. That blog post gets hundreds of views per week and I'm blown away by how many people have been helped by it. I want you all to know that I really appreciate all the feedback I get and that I actively check the comments on this blog so don't be shy and reach out with comments and questions!
+Before we get started I'd like to point out that my [previous post](/posts/ros-windows-wsl) on this topic for WSL1 has been a major hit. That blog post gets hundreds of views per week and I'm blown away by how many people have been helped by it. I want you all to know that I really appreciate all the feedback I get and that I actively check the comments on this blog so don't be shy and reach out with comments and questions!
 
-NOTE #1: If you’d like to know how to set this up in Docker, I have another tutorial [here](/blog/ros-windows-docker) that shows how to do that.
+NOTE #1: If you’d like to know how to set this up in Docker, I have another tutorial [here](/posts/ros-windows-docker) that shows how to do that.
 
 NOTE #2: You have to be running Windows 10 version 2004 (Build 19041) or higher for WSL2 to work.
 

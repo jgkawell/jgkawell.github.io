@@ -20,7 +20,7 @@ I have worked out a couple methods to getting this working:
 
 NOTE #1: I am not an experienced C++ developer and so there may be inaccuracies in my explanation below and my methodology may be hacky/downright wrong. I welcome any and all comments to improve this system.
 
-NOTE #2: If you want to develop in ROS but don't necessarily need custom installs of OMPL or MoveIt! and also happen to use Windows, I've written up a couple tutorials showing how to get ROS working on Windows using either WSL [here](/blog/ros-windows-wsl) or Docker [here](/blog/ros-windows-docker).
+NOTE #2: If you want to develop in ROS but don't necessarily need custom installs of OMPL or MoveIt! and also happen to use Windows, I've written up a couple tutorials showing how to get ROS working on Windows using either WSL [here](/posts/ros-windows-wsl) or Docker [here](/posts/ros-windows-docker).
 
 ## Installation (Ubuntu Desktop)
 
