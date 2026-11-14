@@ -88,18 +88,22 @@ pagination.pagerSize = 10
 
       [languages.en.menu]
         [[languages.en.menu.main]]
+          weight = 10
           identifier = "about"
           name = "About"
           url = "/"
         [[languages.en.menu.main]]
-          identifier = "blog"
-          name = "Blog"
+          weight = 20
+          identifier = "posts"
+          name = "Posts"
           url = "/posts"
         [[languages.en.menu.main]]
+          weight = 30
           identifier = "personal"
           name = "Personal"
           url = "/personal"
         [[languages.en.menu.main]]
+          weight = 40
           identifier = "projects"
           name = "Projects"
           url = "/projects"
